@@ -78,7 +78,7 @@ Next election: [+ next_election_month : month +] [+ next_election_year +]
 
 {!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)">NSDAP</span>!}: [+ nsdap_relation : relationships +]
 
-= Internal Factions of the SPD
+= Internal Factions of the DNVP
 
 {!<span class="tooltip-text" title="National Capitalists are pro-big business, militarist, and favour cooperation with NSDAP.">National Capitalists</span>!} strength: [+ national_strength : strength +], dissent: [+ national_dissent : dissent +]
 

@@ -10,11 +10,18 @@ new-page: true
 
 Hugenberg is an economist and the owner of the largest newspaper conglomerate in Germany. Coming from a family of a Hanover bureaucrat, he advocates strongly Social Darwinist, Statist and Anti-Semitic principles. He has been involved in nationalist politics since he co-founded the General German League in 1891 and he holds large influence over the party.
 
-- @against_right_and_left
-- @toleration
-- @finance_ministry_
-- @economic_democracy_
+- @media_
+- @support_the_nationalist_plan
+- @economic_ministry_
 - @root: Return to main
+
+@media_
+title: Media
+subtitle: Manage our party's newspapers and media.
+choose-if: advisor_action_timer = 0
+unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
+on-arrival: advisor_action_timer = 6; media_timer -= 6; last_advisor_action = 1
+go-to: media
 
 @against_right_and_left
 title: Against Right and Left
